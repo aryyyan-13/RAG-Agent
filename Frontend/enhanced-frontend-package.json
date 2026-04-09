@@ -1,0 +1,45 @@
+{
+  "name": "rag-frontend",
+  "version": "0.2.0",
+  "description": "React frontend for Multi-Domain RAG System",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "lint": "eslint src/",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.22.0",
+    "axios": "^1.7.2",
+    "@google-cloud/storage": "^7.1.0",
+    "octokit": "^3.1.0",
+    "react-dropzone": "^14.2.3",
+    "framer-motion": "^10.16.16",
+    "lucide-react": "^0.372.0",
+    "zustand": "^4.4.1",
+    "date-fns": "^3.0.0",
+    "js-pdf": "^2.5.1",
+    "pdfjs-dist": "^4.0.379",
+    "file-saver": "^2.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@types/file-saver": "^2.0.7",
+    "vite": "^5.1.0",
+    "eslint": "^8.55.0",
+    "@eslint/js": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "vitest": "^1.0.4",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
